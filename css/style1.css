@@ -44,7 +44,7 @@ body
     background-attachment: fixed;
     background-repeat: repeat;
     background-size: 100% 100%;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 /* slider-start */
 h2.sh2
