@@ -192,9 +192,6 @@ min-height:762px ;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-.col-xs-12 {
-    width: 100%;
-}
 .sec4
 {
     background-image: url('../images/footer-bg.jpg');
