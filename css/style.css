@@ -1,0 +1,272 @@
+/* navbar-start */
+.navbar
+{
+    background-color: rgba(0, 0, 0, 0.806) !important;
+    
+}
+.nav-link.active
+{
+  color: #ddb150 !important;
+}
+.nav-link
+{
+    color:#FFFFFF !important ;
+
+}
+.nav-link:hover
+{
+    color: #ddb150 !important;
+}
+.nav-link:active
+{
+    color: #ffa600 !important;
+}
+.nav-item
+{
+    padding: 9px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size:small;
+    text-align: center;
+}
+.navbar-toggler-icon
+{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-toggler
+{
+    border-color: #FFFFFF;
+}
+/* navbar-finish */
+body
+{
+    background-image: url('../images/popular1.jpg');
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-size: 100% 100%;
+}
+/* slider-start */
+.h
+{
+    min-height: 350px;
+}
+.carousel-indicators [data-bs-target]
+{
+    width: 10px;
+    height: 0px;
+    margin-right: 7px; 
+    margin-left: 7px;
+    background-clip: border-box;
+    border-top: 0;
+}
+.carousel-indicators [data-bs-target].active
+{
+  background-color:#ddb150 !important;
+}
+@media(min-width:200px) {
+    .carousel-caption
+    {
+      padding-bottom: 4.25rem;   
+    }
+p.sp
+    {
+        font-size: 7.5px;
+    }   
+}
+@media(min-width:1100px) {
+    .carousel-caption
+    {
+      padding-bottom: 11.25rem;   
+    }
+
+    h2.sh2
+{
+    font-size: 60px;
+}    
+p.sp
+    {
+        font-size: 15px;
+    }   
+h1.sh1
+    {
+        font-size: 85px;
+    }   
+
+    
+}
+h2.sh2
+{
+   color: #ddb150;
+   
+   font-family: 'Allura', cursive;
+   padding: 0px;
+   margin: 0px;
+}
+h1.sh1
+{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight:700;
+
+    padding-bottom: 10px;
+    color: #FFFFFF;
+}
+p.sp
+{
+    color: #FFFFFF;
+    font-family: inherit;
+    font-weight: normal;
+
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+/* slider-finish */
+/* about us-start */
+.row1
+{
+    align-items: flex-start;
+}
+.col_1
+{
+    text-align:center;
+    color: aliceblue;
+    padding: 30px;
+    word-spacing: 2px;
+}
+.head_1
+{
+font-size: 64px;
+padding-top: 40px;
+}
+.img1
+{
+ padding-bottom:30px;
+}
+.par_1
+{
+color: #deb150;
+font-size: 26px;
+padding: 35px;
+}
+.par_2
+{
+font-size: 19px;
+color: rgb(255, 255, 255);
+font-weight: 300;
+}
+.sec1
+{
+background-image: url('../images/body-bg.jpg');
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+padding: 2%;
+min-height:762px ;
+}
+/* about us-finish */
+/* services-start */
+.head2
+{
+    font-size: 64px;
+}
+.col3
+{
+    text-align:center;
+    padding: 10px;
+    padding-top:80px;
+    color: aliceblue;
+}
+.row_2
+{
+    padding: 10px;
+
+}
+.col_4
+{
+    border:5px solid rgb(247, 243, 243);
+    margin-top: 40px;
+    margin-bottom: 90px;
+    height: 300px;
+    width: 200px;
+    background-color: rgb(0, 0, 0);
+}
+.figure1
+{
+    padding-top: 50%;
+}
+.p1
+{
+    padding-top: 20px;
+    color: rgb(255, 108, 4);
+    font-size: 23px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+/* services-finish */
+/* FAQ-start */
+.head3
+{
+    font-size: 64px;
+    text-align: center;
+    color: aliceblue;
+    padding-top: 40px;
+}
+.sec3
+{
+    background-image: url('../images/body-bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.accordion
+{
+    padding: 50px;
+}
+.accordion-button
+{
+    cursor: help !important;
+    font-family: 'Allura', cursive;
+}
+/* FAQ-finish */
+/* footer-start */
+.fa-paper-plane{
+    content: "\f1d8";
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.sec4
+{
+    background-image: url('../images/footer-bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 70px 0;
+}
+.row3
+{
+    border:#202127 solid 20px;
+    background-color: #18191e;
+    height: 1000px;
+    width: 100%;
+    margin: auto;
+
+}
+.copyright
+{
+    margin-top: 5%;
+    text-align: center;
+    color: aliceblue;
+}
+.a1
+{
+    color: chocolate;
+    text-decoration: none;
+}
+.a1:hover{color: coral;}
+.a1:active{color: tomato;}
+/* footer-finish */
